@@ -29,6 +29,8 @@ The specific type of collaborative filtering technique implicit in Hausmann and 
 We will use FASTAI libraries, which are very convenient and easy to use. 
 
 For the data, we will download the freely available data used for the Atlas of Economic Complexity. 
+
 Details of the data: http://atlas.cid.harvard.edu/downloads
+
 Where to download the data: https://intl-atlas-downloads.s3.amazonaws.com/index.html
 
