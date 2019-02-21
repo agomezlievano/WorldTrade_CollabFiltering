@@ -26,4 +26,9 @@ What I want to do here is to apply one of the latest, state-of-the-art, collabor
 The specific type of collaborative filtering technique implicit in Hausmann and Klinger's methodology is just one among many techniques that are part of a bigger family of methods: Low-rank models, or Matrix Factorization methods. I may post some of them in other repos. Here we will just focus on neural networks.
 
 # What we will use
-We will use FASTAI libraries, which are very convenient and easy to use.
+We will use FASTAI libraries, which are very convenient and easy to use. 
+
+For the data, we will download the freely available data used for the Atlas of Economic Complexity. 
+Details of the data: http://atlas.cid.harvard.edu/downloads
+Where to download the data: https://intl-atlas-downloads.s3.amazonaws.com/index.html
+
