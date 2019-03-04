@@ -23,7 +23,7 @@ The above papers opened an fruitful avenue of research that has become a field i
 What I want to do here is to apply one of the latest, state-of-the-art, collaborative filtering techniques: neural networks. What is my goal? One the one hand, I want to quantify how easy/hard it is to train such a network given the fact that world trade data is a small data set compared to the typical datasets in other applications of neural networks (instead of having tens of millions of users, and tens of thousands of movies, we only have around a hundred countries, and at most a few thousands products). On the other hand, if neural networks are indeed appropriate, I expect them to be very predictive. Which we will have a benchmark for how easy it is to predict economic diversification. Hence, we will have learned something about the world.
 
 ### A note
-The specific type of collaborative filtering technique implicit in Hausmann and Klinger's methodology is just one among many techniques that are part of a bigger family of methods: Low-rank models, or Matrix Factorization methods. I may post some of them in other repos. Here we will just focus on neural networks.
+The specific type of collaborative filtering technique implicit in Hausmann and Klinger's methodology is just one among many techniques that are part of a larger family of methods: Low-rank models, or Matrix Factorization methods. I may post some of them in other repos. Here we will just focus on neural network implementation of one of these matrix factorizations. This implementation is particularly flexible, in that one can include "biases".
 
 # What we will use
 We will use FASTAI libraries, which are very convenient and easy to use. 
